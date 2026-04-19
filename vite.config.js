@@ -28,6 +28,10 @@ export default defineConfig(({ mode }) => ({
       input: {
         // eslint-disable-next-line no-undef
         dns: resolve(__dirname, "index.html"),
+        // eslint-disable-next-line no-undef
+        data: resolve(__dirname, "data.html"),
+        // eslint-disable-next-line no-undef
+        delete: resolve(__dirname, "delete.html"),
       },
 
       output: {

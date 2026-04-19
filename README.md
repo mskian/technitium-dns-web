@@ -86,10 +86,25 @@ dns.example.com {
 	}
 }
 ```
+
 - Setup caddy server only for `https://dns.example.com/api/` keep other routes and path blocked via domain
 - offical Docs: **<https://blog.technitium.com/2022/06/how-to-self-host-your-own-domain-name.html>**
 
 > ***Live Site:*** **<https://tdnsweb.pages.dev/>**  
+
+```sh
+
+## URLS
+
+/ - Home page
+/data - Top clients, Top Domains and Top Blocking Domains
+/delete - Delete stats and Logs
+
+```
+
+***> All data was show from `?type=LastHour` only***
+
+- Official API Docs: **<https://github.com/TechnitiumSoftware/DnsServer/blob/master/APIDOCS.md>**  
 
 ## LICENSE
 
